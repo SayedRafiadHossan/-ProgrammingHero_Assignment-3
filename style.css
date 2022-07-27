@@ -4,3 +4,6 @@
 .card-img {
   height: 220px;
 }
+.filter-img {
+  filter: brightness(30%);
+}
