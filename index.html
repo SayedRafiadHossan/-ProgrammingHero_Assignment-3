@@ -21,9 +21,18 @@
     <!-- start navbar -->
     <nav class="container navbar navbar-expand-lg mt-5">
       <div class="container-fluid">
-        <a class="w-50 navbar-brand fs-1 fw-bold" href="#"
-          >The Teaching Corner</a
+        <a class="w-50 navbar-brand fw-bold" href="#">The Teaching Corner</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mt-2 mb-2 mb-lg-0 fw-semibold">
             <li class="nav-item">
@@ -80,16 +89,16 @@
           ></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active position-relative carousel-img">
+          <div class="carousel-item active position-relative">
             <img
               src="images/cover/cover-1.png"
               class="d-block w-100 filter-img"
               alt="..."
             />
             <div
-              class="carousel-caption w-50 d-none d-md-block position-absolute top-30 start-50 translate-middle font-monospace"
+              class="carousel-caption d-md-block position-absolute top-50 start-50 translate-middle img-responsive"
             >
-              <h5 class="fw-bold fs-1">Get Started Digital Learning</h5>
+              <h1 class="fw-bold">Get Started Digital Learning</h1>
               <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
@@ -97,16 +106,16 @@
               <button type="button" class="btn btn-info">Get Started</button>
             </div>
           </div>
-          <div class="carousel-item carousel-img">
+          <div class="carousel-item position-relative">
             <img
               src="images/cover/cover-2.jpg"
               class="d-block w-100 filter-img"
               alt="..."
             />
             <div
-              class="carousel-caption w-50 d-none d-md-block position-absolute top-30 start-50 translate-middle font-monospace"
+              class="carousel-caption d-md-block position-absolute top-50 start-50 translate-middle img-responsive"
             >
-              <h5 class="fw-bold fs-1">Get Started Digital Learning</h5>
+              <h1 class="fw-bold">Get Started Digital Learning</h1>
               <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
@@ -114,16 +123,16 @@
               <button type="button" class="btn btn-info">Get Started</button>
             </div>
           </div>
-          <div class="carousel-item carousel-img">
+          <div class="carousel-item position-relative">
             <img
               src="images/cover/cover-3.jpg"
               class="d-block w-100 filter-img"
               alt="..."
             />
             <div
-              class="carousel-caption w-50 d-none d-md-block position-absolute top-30 start-50 translate-middle font-monospace"
+              class="carousel-caption d-md-block position-absolute top-50 start-50 translate-middle img-responsive"
             >
-              <h5 class="fw-bold fs-1">Get Started Digital Learning</h5>
+              <h1 class="fw-bold">Get Started Digital Learning</h1>
               <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
@@ -159,7 +168,7 @@
 
     <main class="container pt-5">
       <section>
-        <div class="container w-50 pt-5 text-center font-monospace">
+        <div class="container lg-w-50 pt-5 text-center font-monospace">
           <h5 class="fw-bold fs-1">Discover Our Popular Courses</h5>
           <p>
             It is a long established fact that a reader will be distracted by
@@ -170,7 +179,7 @@
       <section class="pt-5">
         <div class="container overflow-hidden text-center">
           <div class="row gy-5">
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <div>
                 <div class="card mb-3" style="max-width: 740px">
                   <div class="row g-0">
@@ -199,7 +208,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <div>
                 <div class="card mb-3" style="max-width: 740px">
                   <div class="row g-0">
@@ -228,7 +237,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <div>
                 <div class="card mb-3" style="max-width: 740px">
                   <div class="row g-0">
@@ -257,7 +266,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <div>
                 <div class="card mb-3" style="max-width: 740px">
                   <div class="row g-0">
@@ -284,7 +293,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <div>
                 <div class="card mb-3" style="max-width: 740px">
                   <div class="row g-0">
@@ -313,7 +322,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <div>
                 <div class="card mb-3" style="max-width: 740px">
                   <div class="row g-0">
@@ -351,18 +360,18 @@
 
       <!-- Registration Form Start-->
 
-      <section class="d-flex bg-primary rounded-3">
-        <div class="w-75 m-5 text-light">
+      <section class="d-sm-flex d-lg-flex bg-primary py-3 py-lg-0 rounded-3">
+        <div class="m-5 text-light py-sm-5">
           <h1>Ready to join?</h1>
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
         </div>
-        <div class="w-25 m-auto">
+        <div class="w-25 m-auto lg-pt-5">
           <button
             type="button"
-            class="btn btn-light text-primary"
+            class="btn btn-light text-primary reg-button"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
             data-bs-whatever="@mdo"
@@ -631,7 +640,7 @@
 
       <!-- Companies Part Start-->
 
-      <section class="pt-5 pb-5 fw-bold text-center">
+      <section class="pt-5 pb-5 fw-bold text-center d-none d-lg-block">
         <div>
           <h1 class="pb-4">Trusted by over 800+ companies</h1>
         </div>
